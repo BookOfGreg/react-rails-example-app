@@ -1,4 +1,5 @@
 var React = require("react")
+var PropTypes = require("prop-types")
 class Post extends React.Component {
   render () {
     return (
@@ -11,7 +12,7 @@ class Post extends React.Component {
 }
 
 Post.propTypes = {
-  title: React.PropTypes.node,
-  body: React.PropTypes.node
+  title: PropTypes.String,
+  body: PropTypes.String
 };
 module.exports = Post
