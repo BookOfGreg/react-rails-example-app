@@ -1,24 +1,5 @@
-# README
+# React-Rails Demo Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is an example of a simple working Rails 5, Weback(er)3, React-Rails 2.3+ application.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Where generators are used, the git commit will be the command ran to get to the current application state so it will hopefully be easy to follow along at home.
