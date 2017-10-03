@@ -1151,6 +1151,13 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+cjsx-loader@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cjsx-loader/-/cjsx-loader-3.0.0.tgz#06dca52af2af649a8c0539c17990f633adc6dd8f"
+  dependencies:
+    coffee-react-transform "^4.0.0"
+    loader-utils "0.2.x"
+
 clap@^1.0.9:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
@@ -1200,11 +1207,39 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+coffee-jsx-loader@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/coffee-jsx-loader/-/coffee-jsx-loader-0.1.5.tgz#d558c4333c080d3c0731fd5ca6f3e12f97ea7603"
+  dependencies:
+    coffee-react "^4.0.0 || ^5.0.0"
+    loader-utils "^0.2.11"
+
 coffee-loader@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/coffee-loader/-/coffee-loader-0.8.0.tgz#ec48e7327da8e3a99047a99d9bdcfcac12df3694"
   dependencies:
     loader-utils "^1.0.2"
+
+coffee-react-jstransform@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/coffee-react-jstransform/-/coffee-react-jstransform-1.0.0.tgz#d3d343cede33c8f2b2ea37cb7fa0f84987236214"
+
+coffee-react-transform@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/coffee-react-transform/-/coffee-react-transform-4.0.0.tgz#731a79fd445a56e93926c72e983eff937f7c6fde"
+
+"coffee-react@^4.0.0 || ^5.0.0":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/coffee-react/-/coffee-react-5.0.1.tgz#3d03566e8646894c962193c42c2e895f91f49ecb"
+  dependencies:
+    coffee-react-jstransform "^1.0.0"
+    coffee-react-transform "^4.0.0"
+    coffee-script "^1.10.0"
+    mkdirp "^0.5.0"
+
+coffee-script@^1.10.0:
+  version "1.12.7"
+  resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
 
 coffeescript@^1.12.7:
   version "1.12.7"
@@ -2856,6 +2891,15 @@ load-json-file@^2.0.0:
 loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
+
+loader-utils@0.2.x, loader-utils@^0.2.11:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
+  dependencies:
+    big.js "^3.1.3"
+    emojis-list "^2.0.0"
+    json5 "^0.5.0"
+    object-assign "^4.0.1"
 
 loader-utils@^1.0.0, loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.1.0"

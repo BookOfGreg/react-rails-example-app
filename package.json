@@ -4,6 +4,8 @@
   "dependencies": {
     "@rails/webpacker": "^3.0.1",
     "babel-preset-react": "^6.24.1",
+    "cjsx-loader": "^3.0.0",
+    "coffee-jsx-loader": "^0.1.5",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
