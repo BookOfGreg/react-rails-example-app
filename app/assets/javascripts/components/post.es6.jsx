@@ -4,6 +4,7 @@ class Post extends React.Component {
       <div>
         <div>Title: {this.props.title}</div>
         <div>Body: {this.props.body}</div>
+
       </div>
     );
   }
