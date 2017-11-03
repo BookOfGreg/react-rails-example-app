@@ -12,7 +12,7 @@ class Post extends React.Component {
 }
 
 Post.propTypes = {
-  title: PropTypes.String,
-  body: PropTypes.String
+  title: PropTypes.string,
+  body: PropTypes.string
 };
 module.exports = Post
