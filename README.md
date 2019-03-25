@@ -4,6 +4,32 @@ This repo is an example of a simple working Rails 5, Webpack(er)3, React-Rails 2
 
 Where generators are used, the git commit will be the command ran to get to the current application state so it will hopefully be easy to follow along at home.
 
+## How to test the Demo Application
+
+#### 1) Install the JS packages:
+
+```
+$ yarn (or npm install)
+```
+
+#### 2) In one terminal run the rails server:
+
+```
+$ rails s
+```
+
+#### 3) In another terminal run the webpack server:
+
+```
+$ ./bin/webpack-dev-server
+```
+
+#### 4) Visit the welcome page
+
+```
+http://localhost:3000/welcome/index
+```
+
 ## Branches
 
 This repo contains two trees, one Webpacker and one Sprockets.
