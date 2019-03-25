@@ -9,7 +9,7 @@ Where generators are used, the git commit will be the command ran to get to the 
 #### 1) Install the JS packages:
 
 ```
-$ yarn (or npm install)
+$ yarn # or npm install
 ```
 
 #### 2) In one terminal run the rails server:
