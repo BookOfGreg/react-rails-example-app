@@ -4358,11 +4358,12 @@ react@^16.0.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react_ujs@^2.2.1, react_ujs@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/react_ujs/-/react_ujs-2.4.2.tgz#c09365579b1c7b2191eab5a57f007609fd1852ba"
+react_ujs@^2.2.1, react_ujs@^2.4.4:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react_ujs/-/react_ujs-2.5.0.tgz#b8481818233f54aee2cbee0328baf6eaea290824"
+  integrity sha512-uRtlv3ITYv6BGHYO3Z4pS1K2JJtIT2Sz345g/bCbMdwraZZ0BLyq4SnESIkiDmg7SX3bJchb2OmQUSwPjbXB3A==
   dependencies:
-    react_ujs "^2.4.1"
+    react_ujs "^2.4.4"
 
 read-cache@^1.0.0:
   version "1.0.0"
