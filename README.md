@@ -8,23 +8,29 @@ Where generators are used, the git commit will be the command ran to get to the 
 
 #### 1) Install the JS packages:
 
-```
-$ yarn # or npm install
+```sh
+$ yarn install # or npm install
 ```
 
-#### 2) In one terminal run the rails server:
+#### 2) Install GEM packages:
+
+```
+$ bundle install
+```
+
+#### 3) In one terminal run the rails server:
 
 ```
 $ rails s
 ```
 
-#### 3) In another terminal run the webpack server:
+#### 4) In another terminal run the webpack server:
 
 ```
 $ ./bin/webpack-dev-server
 ```
 
-#### 4) Visit the welcome page
+#### 5) Visit the welcome page
 
 ```
 http://localhost:3000/welcome/index
